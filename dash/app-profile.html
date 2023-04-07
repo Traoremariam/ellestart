@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ellestart</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/lo.png">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+        
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+               
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-email-outline"></i>
+                                <span class="badge badge-pill gradient-1">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu">
+                                <div class="dropdown-content-heading d-flex justify-content-between">
+                                    <span class="">3 New Messages</span>  
+                                    <a href="javascript:void()" class="d-inline-block">
+                                        <span class="badge badge-pill gradient-1">3</span>
+                                    </a>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li class="notification-unread">
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/1.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Saiful Islam</div>
+                                                    <div class="notification-timestamp">08 Hours ago</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="notification-unread">
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/2.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Adam Smith</div>
+                                                    <div class="notification-timestamp">08 Hours ago</div>
+                                                    <div class="notification-text">Can you do me a favour?</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/3.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Barak Obama</div>
+                                                    <div class="notification-timestamp">08 Hours ago</div>
+                                                    <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/4.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Hilari Clinton</div>
+                                                    <div class="notification-timestamp">08 Hours ago</div>
+                                                    <div class="notification-text">Hello</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-pill gradient-2">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
+                                <div class="dropdown-content-heading d-flex justify-content-between">
+                                    <span class="">2 New Notifications</span>  
+                                    <a href="javascript:void()" class="d-inline-block">
+                                        <span class="badge badge-pill gradient-2">5</span>
+                                    </a>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Events near you</h6>
+                                                    <span class="notification-text">Within next 5 days</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Event Started</h6>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Event Ended Successfully</h6>
+                                                    <span class="notification-text">One hour ago</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Events to Join</h6>
+                                                    <span class="notification-text">After two days</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user"  data-toggle="dropdown">
+                                <span>English</span>  <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
+                            </a>
+                            <div class="drop-down dropdown-language animated fadeIn  dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="javascript:void()">English</a></li>
+                                        <li><a href="javascript:void()">Dutch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown">
+                            <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img src="images/user/1.png" height="40" width="40" alt="">
+                            </div>
+                            <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="app-profile.html"><i class="icon-user"></i> <span>Profile</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <i class="icon-envelope-open"></i> <span>Inbox</span> <div class="badge gradient-3 badge-pill gradient-1">3</div>
+                                            </a>
+                                        </li>
+                                        
+                                        <hr class="my-2">
+                                        <li>
+                                            <a href="page-lock.html"><i class="icon-lock"></i> <span>Lock Screen</span></a>
+                                        </li>
+                                        <li><a href="page-login.html"><i class="icon-key"></i> <span>Logout</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label">Tableau de bord</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-speedometer menu-icon"></i><span class="nav-text">Tableau de bord</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <!-- <li><a href="./index-2.html">Home 2</a></li> -->
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-label">Mes tests</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-note menu-icon"></i><span class="nav-text"> Mes evalutions</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./form-step.html">Personnalité</a></li>
+                            <li><a href="./form-validation.html">Competences</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="./app-profile.html" aria-expanded="false">
+                            <i class=""></i><span class="nav-text">Mon dossier</span>
+                        </a>
+                    </li>
+                   
+                    <li>
+                        <a href="index.html" aria-expanded="false">
+                            <i class=""></i><span class="nav-text">Profil de carrière</span>
+                        </a>
+                    </li>
+                   
+                    
+                    
+                   
+                    <li>
+                        <a href="widgets.html" aria-expanded="false">
+                            <i class="icon-badge menu-icon"></i><span class="nav-text">Mes badge et certificat</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./app-calender.html" aria-expanded="false">
+                            <i ></i><span class="nav-text">Mes rendez vous</span>
+                        </a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+        
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-xl-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="media align-items-center mb-4">
+                                    <img class="mr-3" src="images/avatar/1.png" width="80" height="80" alt="">
+                                    <div class="media-body">
+                                        <h3 class="mb-0">Traore mariam</h3>
+                                    </div>
+                                </div>
+                                
+                                <div class="row mb-5">
+                                    
+                                    <div class="col-12 text-center">
+                                        <button class="btn btn-danger px-5">Developpeur web</button>
+                                    </div>
+                                </div>
+
+                                <h4>A propos</h4>
+                                <p class="text-muted">je suis une gagnante et je vais atteindre mes objetifs</p>
+                                <ul class="card-profile__info">
+                                    <li class="mb-1"><strong class="text-dark mr-4">Mobile</strong> <span>01793931609</span></li>
+                                    <li><strong class="text-dark mr-4">Email</strong> <span>mariam@.com</span></li>
+                                </ul>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-lg-8 col-xl-9">
+                       
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="media media-reply">
+                                    <img class="mr-3 circle-rounded" src="images/avatar/1.png" width="50" height="50" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <div class="d-sm-flex justify-content-between mb-2">
+                                            <h5 class="mb-sm-0">Mon profil <small class="text-muted ml-3">about 3 days ago</small></h5>
+                                            <div class="media-reply__link">
+                                                
+                                                <button class="btn btn-transparent text-danger font-weight-bold p-0 ml-2">Télecharger le dossier</button>
+                                            </div>
+                                        </div>
+                                        
+                                        <p>
+                                            Personnalité
+                                            Forces:
+
+                                            Bonne communication
+                                            Capacité à résoudre des problèmes
+                                            Autonomie
+                                            Capacité à travailler en équipe
+                                            Forte éthique de travail
+                                            Créativité
+                                            Adaptabilité
+                                            Bonne gestion du temps
+                                            Compétences en leadership
+                                            Capacité à apprendre rapidement
+                                            Faiblesses:
+                                            
+                                            Difficulté à gérer le stress
+                                            Manque de confiance en soi
+                                            Procrastination
+                                            Manque de compétences techniques spécifiques
+                                            Difficulté à accepter la critique
+                                            Manque de compétences en communication
+                                            Manque de concentration
+                                            Difficulté à travailler en équipe
+                                            Manque de vision à long terme
+                                            Difficulté à prendre des décisions
+                                            
+                                            
+                                            
+                                            <br><br>                    
+                                            
+Développeur junior passionné par la création de solutions innovantes et efficaces pour résoudre des problèmes. Expérimenté dans la programmation en langages comme Python, Java, JavaScript, C++, etc. Fortes compétences en résolution de problèmes, en collaboration et en communication. Recherche activement une opportunité de développer et d'améliorer ses compétences en développement de logiciels.
+<br><br>
+
+Compétences clés :
+<br><br>
+
+Programmation en Python, Java, JavaScript, C++, etc.
+Connaissance des principes de base de la conception de logiciels et de l'architecture de systèmes
+Compétences en résolution de problèmes et en débogage de code
+Aptitude à travailler en équipe et à communiquer efficacement avec les membres de l'équipe
+Connaissance de la gestion de projet agile
+Expérience professionnelle :
+<br><br>
+
+Développeur Junior chez ABC Company
+Janvier 2022 - présent
+<br><br>
+
+Travailler en étroite collaboration avec l'équipe de développement pour créer des applications innovantes pour les clients
+Participer à la planification et à l'exécution des projets de développement de logiciels
+Analyser les spécifications des clients et proposer des solutions de conception
+Participer à la résolution de problèmes et au débogage de code
+Assurer la qualité et la convivialité des applications en effectuant des tests de fonctionnalités
+Projets personnels :
+<br><br>
+
+Développement d'une application Web pour la gestion des tâches personnelles en utilisant Python, Flask et MySQL
+Création d'un jeu en JavaScript avec les bibliothèques Phaser
+Formation :
+<br>
+Diplôme en informatique, Université XYZ
+2018-2022
+<br>
+Certificats de compétence :
+
+Certificat en développement Web Full Stack, Codecademy
+Certificat en Python pour les sciences des données, DataCamp
+Références disponibles sur demande.
+
+J'espère que cela vous aidera à stimuler votre CV en tant que développeur junior. Bonne chance dans votre recherche d'emploi !
+
+
+
+
+                                        </p>
+                                      
+
+                                        <div class="media mt-3">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+
+                           
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+
+</body>
+
+</html>
